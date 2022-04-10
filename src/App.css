@@ -1,0 +1,46 @@
+/* * {
+  border-style: solid;
+  border-color: gray;
+} */
+
+#header_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+#page_title h1 {
+  margin-block-start: 0;
+}
+
+#header_menu_names {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#search_icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.page_button {
+  background-color: rgb(255, 153, 0);
+  height: 2.8rem;
+  width: 9.5rem;
+  border-radius: 1.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+}
+
+.menu_item {
+  margin-left: 1rem;
+  margin-right: 1rem; 
+}
